@@ -8,5 +8,7 @@ php:
 before_script:
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --dev
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS kupas;'
+  - cp tests/travis/config.stub.php ./config.php
 
 script: phpunit -c phpunit.xml --coverage-text
