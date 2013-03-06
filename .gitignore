@@ -1,6 +1,9 @@
-# Composer 
+# Composer related files
 composer.lock
 vendor/*
+
+# Project related files
+config.php
 
 # always-ignore extensionsalways-ignore extensions
 *.diff
