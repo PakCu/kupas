@@ -1,5 +1,8 @@
 # Kupas
+
 Parody PHP MVC Super Cool Micro-Framework, for Dummies
+
+[![Build Status](https://travis-ci.org/jomweb/kupas.png?branch=master)](https://travis-ci.org/jomweb/kupas)
 
 ## License
 
